@@ -1,21 +1,18 @@
-# Next.js template
+# 🍳 Katalog Resep Makanan (Full-Stack CRUD)
 
-This is a Next.js template with shadcn/ui.
+Sebuah aplikasi web modern untuk mencatat, menyimpan, dan mengelola resep masakan favorit. Proyek ini dibangun dari nol untuk mendemonstrasikan implementasi operasi C-R-U-D (Create, Read, Update, Delete) menggunakan Next.js App Router dan database MySQL (Aiven).
 
-## Adding components
+## ✨ Fitur Utama
 
-To add components to your app, run the following command:
+- **Create:** Menambahkan resep baru lengkap dengan bahan dan instruksi memasak.
+- **Read:** Menampilkan daftar resep dalam bentuk _Card_ yang responsif dan elegan.
+- **Update:** Mengedit resep yang sudah ada dengan _form pop-up_ otomatis terisi data lama.
+- **Delete:** Menghapus resep dengan fitur konfirmasi keamanan bawaan _browser_.
 
-```bash
-npx shadcn@latest add button
-```
+## 🛠️ Teknologi yang Digunakan
 
-This will place the ui components in the `components` directory.
-
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button";
-```
+- **Frontend:** Next.js 14 (App Router), React, Tailwind CSS.
+- **UI Components:** Shadcn UI (Radix UI).
+- **Backend/Logic:** Next.js Server Actions.
+- **Database:** MySQL (di-host menggunakan Aiven Cloud).
+- **Library DB:** `mysql2/promise`.
