@@ -19,6 +19,7 @@ export function AddRecipeDialog() {
 
   return (
     <Dialog open={open} onOpenChange={setOpen}>
+      {/* @ts-ignore */}
       <DialogTrigger asChild>
         <Button className="mb-6">➕ Tambah Resep</Button>
       </DialogTrigger>
